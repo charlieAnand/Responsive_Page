@@ -55,7 +55,7 @@ header {
   display: none;
 }
 .main {
-  background-image: url("/Asset/image.png");
+  background-image: url("Asset/image.png");
   background-position: center;
   background-size: cover;
   height: 100vh;

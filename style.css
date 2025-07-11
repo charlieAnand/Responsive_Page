@@ -1,0 +1,498 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hr_center {
+  border: 1px solid #ff9b51;
+  margin: auto;
+  text-align: center;
+  width: 5%;
+}
+.hr_left {
+  border: 1px solid #ff9b51;
+  margin-left: 0;
+  text-align: left;
+  width: 10%;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.layout {
+  margin: 0 auto;
+}
+.flex_design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+.navbar a {
+  font-size: 16px;
+  padding: 13px;
+  margin: 13px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.burger {
+  display: none;
+}
+.main {
+  background-image: url("/Asset/image.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.heading {
+  width: 50%;
+}
+.logo_name {
+  font-size: 65px;
+  width: 28rem;
+}
+.main .row {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+.login {
+  width: 50%;
+}
+.heading h2 {
+  font-size: 32px;
+  font-weight: 400;
+  padding: 18px 0;
+}
+.para {
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 18px 0;
+}
+.login-container {
+  flex-direction: column;
+  min-height: 100vh;
+  width: 50%;
+  margin: auto;
+}
+.login_form {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  border-radius: 10px;
+}
+input {
+  font-weight: 400;
+  padding: 10px;
+  margin: 25px 20px;
+  border: none;
+  border-bottom: 2px solid #c2c2c2;
+  color: #c2c2c2;
+}
+.primary {
+  background-color: #ff9b51;
+  color: white;
+  border: transparent;
+  height: 55px;
+  font-size: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+form h3 {
+  background-color: #f5f5f5;
+  color: black;
+  text-align: center;
+  height: 55px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: transparent;
+  padding: 15px;
+}
+.secondary {
+  border-color: white;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  width: 137px;
+  height: 40px;
+  font-size: 15px;
+}
+.secondary:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+.social_media {
+  padding: 1rem;
+  justify-content: space-around;
+  border-bottom: #c2c2c2;
+  box-shadow: 0px 2px #c2c2c2;
+}
+.info h3 {
+  padding: 5px;
+}
+.info p {
+  padding: 5px;
+}
+.icons {
+  font-size: 45px;
+  color: #c2c2c2;
+  justify-content: space-around;
+  width: 50rem;
+}
+.fa-brands {
+  padding: 10px;
+}
+.features_panel {
+  background-color: #f5f5f5;
+  padding: 6rem 0;
+}
+.tabs {
+  flex-direction: column;
+  padding: 0 25px 0 15px;
+}
+.tab_btn {
+  width: 110px;
+  height: 110px;
+  background-color: #333333;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1px;
+}
+.content {
+  padding: 0 30px;
+}
+.content h3 {
+  padding: 35px 0;
+}
+.content p {
+  padding: 15px 0;
+}
+.btn_primary {
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin: 35px 0;
+  background-color: #ff9b51;
+  border: transparent;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+}
+.tabs_img {
+  padding: 0 15px;
+}
+.content_container {
+  padding: 20px;
+}
+.col h3 {
+  padding: 15px 0;
+}
+.features_panel_3 {
+  background-color: #f5f5f5;
+}
+.title {
+  justify-content: space-around;
+}
+.title h3 {
+  font-size: 14px;
+  padding: 5px;
+}
+.title .para {
+  font-size: 14px;
+  padding: 5px;
+}
+.download {
+  border: 2px solid #ff9b51;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 10px;
+}
+.features_panel_4 {
+  padding: 2rem;
+}
+.process_panel {
+  text-align: center;
+}
+.process_panel h3 {
+  padding: 15px 0;
+}
+.steps {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+.steps h3 {
+  padding: 15px 0;
+}
+.steps .download {
+  width: 13%;
+  margin: 15px auto;
+  border: 2px solid #ff9b51;
+  border-radius: 30px;
+  text-align: center;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+.steps img {
+  margin: 10px 0;
+}
+.procedure {
+  margin: 10px 15px;
+}
+.pricing_panel {
+  background-color: #f5f5f5;
+  padding: 3rem;
+}
+.subscription {
+  flex-direction: column;
+  margin: 20px;
+  width: 350px;
+}
+.membership {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid #ff9b51;
+}
+.amount {
+  padding: 20px;
+}
+.amount h3 {
+  font-size: 40px;
+}
+.amount p {
+  margin: 10px;
+  color: #adadad;
+  font-size: 14px;
+  font-weight: 600;
+}
+h4 {
+  padding: 15px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #f5f5f5;
+}
+.levels {
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+.concept {
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.opinion {
+  flex-direction: column;
+  align-items: start;
+  margin: 15px;
+}
+.opinion p {
+  padding: 18px;
+}
+.phase {
+  background-color: #f5f5f5;
+  position: relative;
+}
+.rotated {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  background-color: #f5f5f5;
+  left: 30px;
+  rotate: 45deg;
+  bottom: 0px;
+  z-index: -1;
+}
+.profile {
+  padding: 15px 0;
+  justify-content: start;
+  width: 100%;
+}
+.details {
+  padding: 0 15px;
+}
+.details p {
+  padding: 5px 0;
+}
+.bg_img {
+  background-image: url("/Asset/u25_state0.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  padding: 4rem 10px;
+}
+.bg_img h3 {
+  font-size: 36px;
+  padding: 15px 0;
+}
+.bg_img .btn {
+  margin: 10px 0;
+}
+.bg_img .hr_center {
+  border: 1px solid white;
+  width: 7%;
+}
+.contact_form {
+  flex-direction: column;
+}
+.form_container input {
+  width: 33rem;
+}
+textarea {
+  height: 13.4rem;
+  width: 33rem;
+  border: none;
+  border-bottom: 2px solid#c2c2c2;
+  padding: 10px;
+  margin: 5px;
+}
+.contact_btn {
+  text-align: center;
+}
+.footer_panel {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.footer_panel .icons {
+  justify-content: center;
+  width: 100%;
+  font-size: 30px;
+}
+.footer_panel h3 {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 5px;
+}
+.footer_panel .fa-brands {
+  margin: 0 10px;
+}
+@media (max-width: 768px) {
+  .login {
+    display: none;
+  }
+  .heading {
+    width: 100%;
+  }
+  .social_media {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info {
+    padding: 10px 0;
+  }
+  .icons {
+    font-size: 25px;
+    justify-content: start;
+    width: 100%;
+  }
+  .panel_2_row {
+    flex-direction: column;
+  }
+  .panel_3_row {
+    flex-direction: column-reverse;
+  }
+  .fa-brands {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 600px) {
+  .para {
+    padding: 18px 5px;
+  }
+
+  .hr_center {
+    width: 15%;
+  }
+  .logo_name {
+    font-size: 45px;
+  }
+  br {
+    display: none;
+  }
+  .heading h2 {
+    font-size: 25px;
+  }
+  .heading_col {
+    padding: 15px;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    font-size: 30px;
+  }
+
+  .features_panel {
+    flex-direction: column;
+  }
+
+  .panel_img {
+    width: 100%;
+  }
+  .steps {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .premiums {
+    flex-direction: column;
+  }
+  .concept {
+    flex-direction: column;
+  }
+  .bg_img .para {
+    text-align: center;
+  }
+  .form_container input {
+    width: 22rem;
+  }
+  .form_container {
+    flex-direction: column;
+  }
+  textarea {
+    height: 6.4rem;
+    width: 22rem;
+  }
+  .footer_panel .fa-brands {
+    margin: 0;
+  }
+}
+@media (max-width: 438px) {
+  .bg_img .hr_center {
+    text-align: left;
+    width: 10%;
+    margin-left: 0;
+  }
+}
